@@ -1,0 +1,47 @@
+H:\Визуелно програмирање\Проект\IQ Test\IQ Test\bin\Release\IQ Test.exe
+H:\Визуелно програмирање\Проект\IQ Test\IQ Test\bin\Release\IQ Test.pdb
+H:\Визуелно програмирање\Проект\IQ Test\IQ Test\obj\x86\Release\IQ_Test.Form1.resources
+H:\Визуелно програмирање\Проект\IQ Test\IQ Test\obj\x86\Release\IQ_Test.Properties.Resources.resources
+H:\Визуелно програмирање\Проект\IQ Test\IQ Test\obj\x86\Release\IQ_Test.ResultForm.resources
+H:\Визуелно програмирање\Проект\IQ Test\IQ Test\obj\x86\Release\IQTest.csproj.GenerateResource.Cache
+H:\Визуелно програмирање\Проект\IQ Test\IQ Test\obj\x86\Release\IQ Test.exe
+H:\Визуелно програмирање\Проект\IQ Test\IQ Test\obj\x86\Release\IQ Test.pdb
+C:\Users\Stefan\Desktop\Визуелно програмирање\Проект\IQ Test\IQ Test\bin\Release\IQ Test.exe
+C:\Users\Stefan\Desktop\Визуелно програмирање\Проект\IQ Test\IQ Test\bin\Release\IQ Test.pdb
+C:\Users\Stefan\Desktop\Визуелно програмирање\Проект\IQ Test\IQ Test\obj\x86\Release\IQ_Test.Form1.resources
+C:\Users\Stefan\Desktop\Визуелно програмирање\Проект\IQ Test\IQ Test\obj\x86\Release\IQ_Test.Properties.Resources.resources
+C:\Users\Stefan\Desktop\Визуелно програмирање\Проект\IQ Test\IQ Test\obj\x86\Release\IQ_Test.ResultForm.resources
+C:\Users\Stefan\Desktop\Визуелно програмирање\Проект\IQ Test\IQ Test\obj\x86\Release\IQTest.csproj.GenerateResource.Cache
+C:\Users\Stefan\Desktop\Визуелно програмирање\Проект\IQ Test\IQ Test\obj\x86\Release\IQ Test.exe
+C:\Users\Stefan\Desktop\Визуелно програмирање\Проект\IQ Test\IQ Test\obj\x86\Release\IQ Test.pdb
+C:\Users\Stefan\Desktop\FAK\IV semestar\Vizuelno prog\IQ Test\IQ Test\obj\x86\Release\IQ_Test.Form1.resources
+C:\Users\Stefan\Desktop\FAK\IV semestar\Vizuelno prog\IQ Test\IQ Test\obj\x86\Release\IQ_Test.Properties.Resources.resources
+C:\Users\Stefan\Desktop\FAK\IV semestar\Vizuelno prog\IQ Test\IQ Test\obj\x86\Release\IQ_Test.ResultForm.resources
+C:\Users\Stefan\Desktop\FAK\IV semestar\Vizuelno prog\IQ Test\IQ Test\obj\x86\Release\IQ_Test.Start.resources
+C:\Users\Stefan\Desktop\FAK\IV semestar\Vizuelno prog\IQ Test\IQ Test\obj\x86\Release\IQTest.csproj.GenerateResource.Cache
+C:\Users\Stefan\Desktop\FAK\IV semestar\Vizuelno prog\IQ Test\IQ Test\obj\x86\Release\IQ Test.exe
+C:\Users\Stefan\Desktop\FAK\IV semestar\Vizuelno prog\IQ Test\IQ Test\bin\Release\IQ Test.exe
+C:\Users\Stefan\Desktop\FAK\IV semestar\Vizuelno prog\IQ Test\IQ Test\bin\Release\IQ Test.pdb
+C:\Users\Stefan\Desktop\FAK\IV semestar\Vizuelno prog\IQ Test\IQ Test\obj\x86\Release\IQ Test.pdb
+C:\Users\Stefan\Desktop\IQ Test\IQ Test\obj\x86\Release\IQ_Test.Form1.resources
+C:\Users\Stefan\Desktop\IQ Test\IQ Test\obj\x86\Release\IQ_Test.Properties.Resources.resources
+C:\Users\Stefan\Desktop\IQ Test\IQ Test\obj\x86\Release\IQ_Test.ResultForm.resources
+C:\Users\Stefan\Desktop\IQ Test\IQ Test\obj\x86\Release\IQ_Test.Start.resources
+C:\Users\Stefan\Desktop\IQ Test\IQ Test\obj\x86\Release\IQTest.csproj.GenerateResource.Cache
+C:\Users\Stefan\Desktop\IQ Test\IQ Test\obj\x86\Release\IQ Test.exe
+C:\Users\Stefan\Desktop\IQ Test\IQ Test\bin\Release\IQ Test.exe
+C:\Users\Stefan\Desktop\IQ Test\IQ Test\bin\Release\IQ Test.pdb
+C:\Users\Stefan\Desktop\IQ Test\IQ Test\obj\x86\Release\IQ Test.pdb
+F:\najnovo\IQ Test\IQ Test\obj\x86\Release\IQ Test.exe
+F:\najnovo\IQ Test\IQ Test\obj\x86\Release\IQ Test.pdb
+F:\najnovo\IQ Test\IQ Test\bin\Release\IQ Test.exe
+F:\najnovo\IQ Test\IQ Test\bin\Release\IQ Test.pdb
+F:\najnovo\IQ Test\IQ Test\obj\x86\Release\ResolveAssemblyReference.cache
+F:\najnovo\IQ Test\IQ Test\obj\x86\Release\IQ_Test.Form1.resources
+F:\najnovo\IQ Test\IQ Test\obj\x86\Release\IQ_Test.Properties.Resources.resources
+F:\najnovo\IQ Test\IQ Test\obj\x86\Release\IQ_Test.ResultForm.resources
+F:\najnovo\IQ Test\IQ Test\obj\x86\Release\IQ_Test.Start.resources
+F:\najnovo\IQ Test\IQ Test\obj\x86\Release\GenerateResource.read.1.tlog
+F:\najnovo\IQ Test\IQ Test\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\User\Downloads\iqtest\IQ Test\IQ Test\obj\x86\Release\IQ Test.exe
+C:\Users\User\Downloads\iqtest\IQ Test\IQ Test\obj\x86\Release\IQ Test.pdb

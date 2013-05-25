@@ -1,0 +1,15 @@
+C:\Users\User\AppData\Local\Temporary Projects\IQ Test\bin\Debug\IQ Test.exe
+C:\Users\User\AppData\Local\Temporary Projects\IQ Test\bin\Debug\IQ Test.pdb
+C:\Users\User\AppData\Local\Temporary Projects\IQ Test\obj\x86\Debug\IQ_Test.Form1.resources
+C:\Users\User\AppData\Local\Temporary Projects\IQ Test\obj\x86\Debug\IQ_Test.Properties.Resources.resources
+C:\Users\User\AppData\Local\Temporary Projects\IQ Test\obj\x86\Debug\IQ Test.csproj.GenerateResource.Cache
+C:\Users\User\AppData\Local\Temporary Projects\IQ Test\obj\x86\Debug\IQ Test.exe
+C:\Users\User\AppData\Local\Temporary Projects\IQ Test\obj\x86\Debug\IQ Test.pdb
+C:\Users\User\documents\visual studio 2010\Projects\IQ Test\IQ Test\obj\x86\Debug\IQ Test.exe
+C:\Users\User\documents\visual studio 2010\Projects\IQ Test\IQ Test\obj\x86\Debug\IQ Test.pdb
+C:\Users\User\documents\visual studio 2010\Projects\IQ Test\IQ Test\obj\x86\Debug\IQ Test.csprojResolveAssemblyReference.cache
+C:\Users\User\documents\visual studio 2010\Projects\IQ Test\IQ Test\obj\x86\Debug\IQ_Test.Form1.resources
+C:\Users\User\documents\visual studio 2010\Projects\IQ Test\IQ Test\obj\x86\Debug\IQ_Test.Properties.Resources.resources
+C:\Users\User\documents\visual studio 2010\Projects\IQ Test\IQ Test\obj\x86\Debug\IQ Test.csproj.GenerateResource.Cache
+C:\Users\User\documents\visual studio 2010\Projects\IQ Test\IQ Test\bin\Debug\IQ Test.exe
+C:\Users\User\documents\visual studio 2010\Projects\IQ Test\IQ Test\bin\Debug\IQ Test.pdb

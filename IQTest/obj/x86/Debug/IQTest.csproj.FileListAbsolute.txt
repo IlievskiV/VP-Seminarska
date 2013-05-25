@@ -1,0 +1,76 @@
+C:\Users\User\documents\visual studio 2010\Projects\IQ Test\IQ Test\bin\Debug\IQ Test.exe
+C:\Users\User\documents\visual studio 2010\Projects\IQ Test\IQ Test\bin\Debug\IQ Test.pdb
+C:\Users\User\documents\visual studio 2010\Projects\IQ Test\IQ Test\obj\x86\Debug\IQ_Test.Form1.resources
+C:\Users\User\documents\visual studio 2010\Projects\IQ Test\IQ Test\obj\x86\Debug\IQ_Test.Properties.Resources.resources
+C:\Users\User\documents\visual studio 2010\Projects\IQ Test\IQ Test\obj\x86\Debug\IQTest.csproj.GenerateResource.Cache
+C:\Users\User\documents\visual studio 2010\Projects\IQ Test\IQ Test\obj\x86\Debug\IQ Test.exe
+C:\Users\User\documents\visual studio 2010\Projects\IQ Test\IQ Test\obj\x86\Debug\IQ Test.pdb
+C:\Users\User\documents\visual studio 2010\Projects\IQ Test\IQ Test\obj\x86\Debug\IQTest.csprojResolveAssemblyReference.cache
+D:\Радмила\Факултет\IV семестар\Визуелно програмирање\Проект\IQ Test\IQ Test\obj\x86\Debug\IQ Test.exe
+D:\Радмила\Факултет\IV семестар\Визуелно програмирање\Проект\IQ Test\IQ Test\obj\x86\Debug\IQ Test.pdb
+D:\Радмила\Факултет\IV семестар\Визуелно програмирање\Проект\IQ Test\IQ Test\bin\Debug\IQ Test.exe
+D:\Радмила\Факултет\IV семестар\Визуелно програмирање\Проект\IQ Test\IQ Test\bin\Debug\IQ Test.pdb
+D:\Радмила\Факултет\IV семестар\Визуелно програмирање\Проект\IQ Test\IQ Test\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Радмила\Факултет\IV семестар\Визуелно програмирање\Проект\IQ Test\IQ Test\obj\x86\Debug\IQ_Test.Form1.resources
+D:\Радмила\Факултет\IV семестар\Визуелно програмирање\Проект\IQ Test\IQ Test\obj\x86\Debug\IQ_Test.Properties.Resources.resources
+D:\Радмила\Факултет\IV семестар\Визуелно програмирање\Проект\IQ Test\IQ Test\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Радмила\Факултет\IV семестар\Визуелно програмирање\Проект\IQ Test\IQ Test\obj\x86\Debug\GenerateResource.write.1.tlog
+H:\Визуелно програмирање\Проект\IQ Test\IQ Test\obj\x86\Debug\IQ Test.exe
+H:\Визуелно програмирање\Проект\IQ Test\IQ Test\obj\x86\Debug\IQ Test.pdb
+H:\Визуелно програмирање\Проект\IQ Test\IQ Test\bin\Debug\IQ Test.exe
+H:\Визуелно програмирање\Проект\IQ Test\IQ Test\bin\Debug\IQ Test.pdb
+H:\Визуелно програмирање\Проект\IQ Test\IQ Test\obj\x86\Debug\IQTest.csprojResolveAssemblyReference.cache
+H:\Визуелно програмирање\Проект\IQ Test\IQ Test\obj\x86\Debug\IQ_Test.Form1.resources
+H:\Визуелно програмирање\Проект\IQ Test\IQ Test\obj\x86\Debug\IQ_Test.Properties.Resources.resources
+H:\Визуелно програмирање\Проект\IQ Test\IQ Test\obj\x86\Debug\IQ_Test.ResultForm.resources
+H:\Визуелно програмирање\Проект\IQ Test\IQ Test\obj\x86\Debug\IQTest.csproj.GenerateResource.Cache
+C:\Users\Stefan\Desktop\Визуелно програмирање\Проект\IQ Test\IQ Test\obj\x86\Debug\IQ Test.exe
+C:\Users\Stefan\Desktop\Визуелно програмирање\Проект\IQ Test\IQ Test\bin\Debug\IQ Test.exe
+C:\Users\Stefan\Desktop\Визуелно програмирање\Проект\IQ Test\IQ Test\bin\Debug\IQ Test.pdb
+C:\Users\Stefan\Desktop\Визуелно програмирање\Проект\IQ Test\IQ Test\obj\x86\Debug\IQTest.csprojResolveAssemblyReference.cache
+C:\Users\Stefan\Desktop\Визуелно програмирање\Проект\IQ Test\IQ Test\obj\x86\Debug\IQ_Test.Form1.resources
+C:\Users\Stefan\Desktop\Визуелно програмирање\Проект\IQ Test\IQ Test\obj\x86\Debug\IQ_Test.Properties.Resources.resources
+C:\Users\Stefan\Desktop\Визуелно програмирање\Проект\IQ Test\IQ Test\obj\x86\Debug\IQ_Test.ResultForm.resources
+C:\Users\Stefan\Desktop\Визуелно програмирање\Проект\IQ Test\IQ Test\obj\x86\Debug\IQTest.csproj.GenerateResource.Cache
+C:\Users\Stefan\Desktop\Визуелно програмирање\Проект\IQ Test\IQ Test\obj\x86\Debug\IQ Test.pdb
+C:\Users\Stefan\Desktop\FAK\IV semestar\Vizuelno prog\IQ Test\IQ Test\obj\x86\Debug\IQ Test.exe
+C:\Users\Stefan\Desktop\FAK\IV semestar\Vizuelno prog\IQ Test\IQ Test\obj\x86\Debug\IQ Test.pdb
+C:\Users\Stefan\Desktop\FAK\IV semestar\Vizuelno prog\IQ Test\IQ Test\bin\Debug\IQ Test.exe
+C:\Users\Stefan\Desktop\FAK\IV semestar\Vizuelno prog\IQ Test\IQ Test\bin\Debug\IQ Test.pdb
+C:\Users\Stefan\Desktop\FAK\IV semestar\Vizuelno prog\IQ Test\IQ Test\obj\x86\Debug\IQTest.csprojResolveAssemblyReference.cache
+C:\Users\Stefan\Desktop\FAK\IV semestar\Vizuelno prog\IQ Test\IQ Test\obj\x86\Debug\IQ_Test.Form1.resources
+C:\Users\Stefan\Desktop\FAK\IV semestar\Vizuelno prog\IQ Test\IQ Test\obj\x86\Debug\IQ_Test.Properties.Resources.resources
+C:\Users\Stefan\Desktop\FAK\IV semestar\Vizuelno prog\IQ Test\IQ Test\obj\x86\Debug\IQ_Test.ResultForm.resources
+C:\Users\Stefan\Desktop\FAK\IV semestar\Vizuelno prog\IQ Test\IQ Test\obj\x86\Debug\IQTest.csproj.GenerateResource.Cache
+C:\Users\Stefan\Desktop\FAK\IV semestar\Vizuelno prog\IQ Test\IQ Test\obj\x86\Debug\IQ_Test.Start.resources
+C:\Users\Stefan\Desktop\IQ Test\IQ Test\obj\x86\Debug\IQ Test.exe
+C:\Users\Stefan\Desktop\IQ Test\IQ Test\obj\x86\Debug\IQ Test.pdb
+C:\Users\Stefan\Desktop\IQ Test\IQ Test\bin\Debug\IQ Test.exe
+C:\Users\Stefan\Desktop\IQ Test\IQ Test\bin\Debug\IQ Test.pdb
+C:\Users\Stefan\Desktop\IQ Test\IQ Test\obj\x86\Debug\IQTest.csprojResolveAssemblyReference.cache
+C:\Users\Stefan\Desktop\IQ Test\IQ Test\obj\x86\Debug\IQ_Test.Form1.resources
+C:\Users\Stefan\Desktop\IQ Test\IQ Test\obj\x86\Debug\IQ_Test.Properties.Resources.resources
+C:\Users\Stefan\Desktop\IQ Test\IQ Test\obj\x86\Debug\IQ_Test.ResultForm.resources
+C:\Users\Stefan\Desktop\IQ Test\IQ Test\obj\x86\Debug\IQ_Test.Start.resources
+C:\Users\Stefan\Desktop\IQ Test\IQ Test\obj\x86\Debug\IQTest.csproj.GenerateResource.Cache
+F:\najnovo\IQ Test\IQ Test\obj\x86\Debug\IQ Test.exe
+F:\najnovo\IQ Test\IQ Test\obj\x86\Debug\IQ Test.pdb
+F:\najnovo\IQ Test\IQ Test\bin\Debug\IQ Test.exe
+F:\najnovo\IQ Test\IQ Test\bin\Debug\IQ Test.pdb
+F:\najnovo\IQ Test\IQ Test\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\najnovo\IQ Test\IQ Test\obj\x86\Debug\IQ_Test.Form1.resources
+F:\najnovo\IQ Test\IQ Test\obj\x86\Debug\IQ_Test.Properties.Resources.resources
+F:\najnovo\IQ Test\IQ Test\obj\x86\Debug\IQ_Test.ResultForm.resources
+F:\najnovo\IQ Test\IQ Test\obj\x86\Debug\IQ_Test.Start.resources
+F:\najnovo\IQ Test\IQ Test\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\najnovo\IQ Test\IQ Test\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\User\Desktop\finalno\IQ Test\IQ Test\bin\Debug\IQ Test.exe
+C:\Users\User\Desktop\finalno\IQ Test\IQ Test\bin\Debug\IQ Test.pdb
+C:\Users\User\Desktop\finalno\IQ Test\IQ Test\obj\x86\Debug\IQTest.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\finalno\IQ Test\IQ Test\obj\x86\Debug\IQ_Test.Form1.resources
+C:\Users\User\Desktop\finalno\IQ Test\IQ Test\obj\x86\Debug\IQ_Test.Properties.Resources.resources
+C:\Users\User\Desktop\finalno\IQ Test\IQ Test\obj\x86\Debug\IQ_Test.ResultForm.resources
+C:\Users\User\Desktop\finalno\IQ Test\IQ Test\obj\x86\Debug\IQ_Test.Start.resources
+C:\Users\User\Desktop\finalno\IQ Test\IQ Test\obj\x86\Debug\IQTest.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\finalno\IQ Test\IQ Test\obj\x86\Debug\IQ Test.exe
+C:\Users\User\Desktop\finalno\IQ Test\IQ Test\obj\x86\Debug\IQ Test.pdb

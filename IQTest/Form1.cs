@@ -30,9 +30,10 @@ namespace IQ_Test
         public int IQCoef;
         //Име на формата
         private string Ime;
-
-        bool hasNextQuestion = true;
+        
         int i = 0;
+        bool hasNextQuestion = true;
+        
 
         public Form1(string ime)
         {
@@ -436,7 +437,7 @@ namespace IQ_Test
         //настан за притискање на стрлеките
         private void Form1_KeyUp(object sender, KeyEventArgs e)
         {
-            selectButton(ButtonList[currentQuestion]);
+            
             if (e.KeyCode == Keys.Left)
             {
                 GoToPreviousQuestion();
@@ -446,6 +447,7 @@ namespace IQ_Test
             {
                 GoToNextQuestion();
             }
+            selectButton(ButtonList[currentQuestion]);
         }
 
     }

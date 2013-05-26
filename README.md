@@ -16,8 +16,8 @@
 
   Screenshots:
 
- -почетен прозорец: https://github.com/IlievskiV/VP-Seminarska/blob/master/Screenshots/StartWindow.jpg
+ -почетен прозорец: ![Alt text](https://github.com/IlievskiV/VP-Seminarska/blob/master/Screenshots/StartWindow.jpg)
 
- -главен прозорез: https://github.com/IlievskiV/VP-Seminarska/blob/master/Screenshots/MainForm.jpg
+ -главен прозорез: ![Alt text](https://github.com/IlievskiV/VP-Seminarska/blob/master/Screenshots/MainForm.jpg)
 
- -прозорец за резултат: https://github.com/IlievskiV/VP-Seminarska/blob/master/Screenshots/ResultWindow.jpg
+ -прозорец за резултат: ![Alt text](https://github.com/IlievskiV/VP-Seminarska/blob/master/Screenshots/ResultWindow.jpg)

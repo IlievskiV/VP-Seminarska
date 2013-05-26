@@ -31,6 +31,7 @@ namespace IQ_Test
             DrawAnswers(answerGraphics);
         }
 
+        //функција за исртување на прашањето
         public override void DrawQuestion(PictureBox questionGraphics)
         {
             Pen drawingPen = new Pen(Color.RoyalBlue, 3);
@@ -41,7 +42,7 @@ namespace IQ_Test
             questionGraphics.Image = buffered;
             g.Dispose();
         }
-
+        //функција за исртување на еден од одговорите
         public override void DrawSingleAnswer(PictureBox answerGraphics, int i)
         {
             Pen drawingPen = new Pen(Color.RoyalBlue, 3);
@@ -57,10 +58,9 @@ namespace IQ_Test
             answerGraphics.Image = buffered;
             g.Dispose();
         }
-
+        //мора answerGraphics.Count == possibleAnswers.Length
         public override void DrawAnswers(List<PictureBox> answerGraphics)
         {
-            
             for (int i = 0; i < answerGraphics.Count; i++)
             {
                 DrawSingleAnswer(answerGraphics[i], i);

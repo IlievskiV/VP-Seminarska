@@ -11,8 +11,6 @@ namespace IQ_Test
     {
         //индексот во листата на точниот одговор
         public int correctAnswer { get; set; }
-        //дали прашањето е воопшто отворено
-        public bool isOpened { get; set; }
         //дали прашањето е точно одговорено
         public bool isCorrectAnswered { get; set; }
         //дали прашањето е одговарано некогаш
@@ -21,22 +19,12 @@ namespace IQ_Test
         public Question(int correct)
         {
             correctAnswer = correct;
-            isOpened = false;
             isAnswered = false;
-        }
-
-        //промена на статусот на прашањето
-        public void OpenQuestion()
-        {
-            if (!isOpened)
-            {
-                isOpened = true;
-            }
         }
 
         //како ќе се исцртува целокупното прашање прашањето на екранот
         public abstract void DrawQuestionObject(List<PictureBox> answerGraphics, PictureBox questionGraphics);
-        //како ќе се исцртува еден од одговорите
+        //како ќе се исцртуваат одговорите
         public abstract void DrawAnswers(List<PictureBox> answerGraphics);
         //како ќе се исцртува прашањето на панелата
         public abstract void DrawQuestion(PictureBox questionGraphics);

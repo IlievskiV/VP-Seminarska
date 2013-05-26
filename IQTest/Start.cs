@@ -46,11 +46,5 @@ namespace IQ_Test
         {
             e.Cancel = false;
         }
-
-
-        
-
-
-  
     }
 }

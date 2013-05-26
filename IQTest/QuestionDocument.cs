@@ -12,7 +12,6 @@ namespace IQ_Test
     //документ класата во проектов
     public class QuestionDocument
     {
-        //ќе треба типот T да се одреди за време на Compile Time
         public List<Question> QuestionList{get; set;}
 
         public QuestionDocument()
@@ -116,6 +115,7 @@ namespace IQ_Test
             Resources.TxtQuestion10Answer3, Resources.TxtQuestion10Answer4, 1));
         }
 
+        //функција за генерирање на прашање со слика
         private Question generateImageQuestion(Image question, Image answer1, Image answer2,
             Image answer3, Image answer4, int correct)
         {
@@ -130,6 +130,7 @@ namespace IQ_Test
             return new ImageQuestion(questionContent, questionAnswers, correct);
         }
 
+        //функција за генерирање на прашање со текст
         private Question generateTextQuestion(string question, string answer1, string answer2, string answer3,
             string answer4, int correct)
         {

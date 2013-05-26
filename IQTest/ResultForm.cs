@@ -135,12 +135,5 @@ namespace IQ_Test
             e.Graphics.FillRectangle(bgBrush, 0, 0, this.Width, this.Height);
             iqscale.Draw(e.Graphics);
         }
-
-        
-
-
-
-
-
     }
 }

@@ -20,21 +20,18 @@ namespace IQ_Test
         private List<PictureBox> answerGraphics;
         //PictureBox каде треба да се исцрта прашањето
         private PictureBox questionGraphics;
-        //за селекција
+        //за селекција на одговорите
         private Pen SelectedPen;
-        private Pen MarkerPen;
-        //private int brOdg = 0;
-
-
+        //помошна листа од копчиња
         private List<Button> ButtonList;
-
+        //тековното прашање
         private int currentQuestion;
-
         //крајниот коефициент на на интелигенција
         public int IQCoef;
+        //Име на формата
+        private string Ime;
 
-        public string Ime;
-        bool imaUshtePrashanja = true;
+        bool hasNextQuestion = true;
         int i = 0;
 
         public Form1(string ime)
@@ -43,7 +40,6 @@ namespace IQ_Test
             Ime = ime;
             this.BackColor = Color.Gray;
             SelectedPen = new Pen(Color.Blue, 5);
-            MarkerPen = new Pen(Color.Red, 5);
             doc = new QuestionDocument();
 
             answerGraphics = new List<PictureBox>();
@@ -65,6 +61,7 @@ namespace IQ_Test
             timeElapsed = 0;
         }
 
+        //Додавање на копчињата во 
         public void AddButtonsToList()
         {
             ButtonList = new List<Button>();
@@ -99,14 +96,12 @@ namespace IQ_Test
             ButtonList.Add(btn29);
             ButtonList.Add(btn30);
         }
+        //за исцртување на прашањето
         public void DrawQuestion(int numberOfQuestion)
         {
             doc.QuestionList[numberOfQuestion].DrawQuestionObject(answerGraphics, questionGraphics);
-            doc.QuestionList[numberOfQuestion].isOpened = true;
-
         }
-
-
+        //настан за селектирање на тековно селектираниот одговор
         private void pictureBoxMouseEnter(object sender, EventArgs e)
         {
             if (!doc.QuestionList[currentQuestion].isAnswered)
@@ -140,7 +135,7 @@ namespace IQ_Test
                 }
             }
         }
-
+        //настан за деселктирање на претходно селектиран одговор
         private void pictureBoxMouseLeave(object sender, EventArgs e)
         {
             if (!doc.QuestionList[currentQuestion].isAnswered)
@@ -163,13 +158,13 @@ namespace IQ_Test
                 }
             }
         }
-
+        //селектирај копче кога маусот е врз него
         private void selectButton(Button btn)
         {
             btn.BackColor = Color.DarkBlue;
             btn.ForeColor = Color.White;
         }
-
+        //деселектирај копче кога маусот ќе испадне
         private void deselectButton(Button btn)
         {
             btn.BackColor = SystemColors.GradientActiveCaption;
@@ -180,21 +175,30 @@ namespace IQ_Test
             Button btn = sender as Button;
             selectButton(btn);
         }
-
         private void btnMouseLeave(object sender, EventArgs e)
         {
             Button btn = sender as Button;
             deselectButton(btn);
         }
+        // овде се одбојува
+        private void btnClick(object sender, EventArgs e)
+        {
+            Button btn = sender as Button;
+            deselectButton(ButtonList[currentQuestion]);
+            currentQuestion = getButtonIndex(btn) - 1;
+            DrawQuestion(currentQuestion);
+            questionNumberLbl.Text = string.Format("Избери прашање: {0}", currentQuestion + 1);
+        }
 
-        // овде се избојува + (1)
+        private int getButtonIndex(Button btn)
+        {
+            return Int16.Parse(btn.Text + "");
+        }
+
+        //Настан за одбирање на одговор и прикажување на следниот
         private void pbMouseClick(object sender, MouseEventArgs e)
         {
             doc.QuestionList[currentQuestion].isAnswered = true;
-
-            Button btn = ButtonList[currentQuestion];
-            btn.BackColor = Color.DarkRed;
-
 
             if (sender == pbAnswer1)
             {
@@ -228,12 +232,14 @@ namespace IQ_Test
                 }
             }
 
+            Button btn = ButtonList[currentQuestion];
+
             if (currentQuestion <= 29)
             {
                 currentQuestion = findNextUnanswered(currentQuestion);
             }
 
-            if (imaUshtePrashanja)
+            if (hasNextQuestion)
             {
                 DrawQuestion(currentQuestion);
                 btn.Enabled = false;
@@ -252,59 +258,57 @@ namespace IQ_Test
 
         }
 
-
-        private int findFirstUnanswered()
+        /// <summary>
+        /// Функција за наоѓање на следното неодговорено прашање почнувајќи од прашањето проследено како аргумент
+        /// </summary>
+        /// <param name="previousQuestion">Претходното прашање</param>
+        /// <returns>Следното прашање што треба да се одговара</returns>
+        private int findNextUnanswered(int previousQuestion)
         {
-            for (i = 0; i < 30; i++)
-            {
-                if (doc.QuestionList[i].isAnswered == false)
-                {
-                    currentQuestion = i;
-                    break;
-                }
-            }
-            if (i == 30)
-                imaUshtePrashanja = false;
-
-            return currentQuestion;
-        }
-
-        // овде се одбојува
-        private int findNextUnanswered(int currentQuestion)
-        {
-            deselectButton(ButtonList[currentQuestion]);
-            i = currentQuestion;
+            deselectButton(ButtonList[previousQuestion]);
+            int nextQuestion = previousQuestion;
+            i = previousQuestion;
             for (; i < 30; i++)
             {
                 if (doc.QuestionList[i].isAnswered == false)
                 {
-                    currentQuestion = i;
+                    nextQuestion = i;
                     break;
                 }
             }
 
             if (i == 30)
-                currentQuestion = findFirstUnanswered();
+            {
+                nextQuestion = findFirstUnanswered();
+            }
+                
 
-            return currentQuestion;
-
+            return nextQuestion;
         }
-
-        private int getButtonIndex(Button btn)
+        /// <summary>
+        /// Функција за наоѓање на првото неодговорено прашање почнувајќи од првото
+        /// </summary>
+        /// <returns></returns>
+        private int findFirstUnanswered()
         {
-            return Int16.Parse(btn.Text + "");
-        }
+            int firstUnanswered = currentQuestion;
+            for (i = 0; i < 30; i++)
+            {
+                if (doc.QuestionList[i].isAnswered == false)
+                {
+                    firstUnanswered = i;
+                    break;
+                }
+            }
 
-        // овде се одбојува
-        private void btnClick(object sender, EventArgs e)
-        {
-            Button btn = sender as Button;
-            deselectButton(ButtonList[currentQuestion]);
-            currentQuestion = getButtonIndex(btn) - 1;
-            DrawQuestion(currentQuestion);
-            questionNumberLbl.Text = string.Format("Избери прашање: {0}", currentQuestion + 1);
-        }
+            if (i == 30)
+            {
+                hasNextQuestion = false;
+            }
+               
 
+            return firstUnanswered;
+        }
         //го пресметува IQ коефициентот
         private void validateIQ()
         {
@@ -319,7 +323,6 @@ namespace IQ_Test
             IQCoef = (NoCorrectAnswers * 3) + 55;
 
         }
-
         //ја повикува формата за резултат
         private void CallResultForm()
         {
@@ -332,7 +335,7 @@ namespace IQ_Test
                 this.Close();
             }
         }
-
+        //настан за предвремено завршување на тестот
         private void btnCalculate_Click(object sender, EventArgs e)
         {
             timer.Stop();
@@ -343,8 +346,20 @@ namespace IQ_Test
             }
             CallResultForm();
         }
+        //настан за клик врз копчето за избор на претходно прашање прашање
+        private void btnPrevious_Click(object sender, EventArgs e)
+        {
 
-        // овде се одбојува
+            GoToPreviousQuestion();
+            selectButton(ButtonList[currentQuestion]);
+        }
+        //настан за клик врз копчето за избор на следно
+        private void btnNext_Click(object sender, EventArgs e)
+        {
+            GoToNextQuestion();
+            selectButton(ButtonList[currentQuestion]);
+        }
+        //функција која се користи за наоѓање на претходно прашање при клик врз копчето за избор на претходно прашање
         private void GoToPreviousQuestion()
         {
             deselectButton(ButtonList[currentQuestion]);
@@ -365,36 +380,7 @@ namespace IQ_Test
 
             questionNumberLbl.Text = string.Format("Избери прашање: {0}", currentQuestion + 1);
         }
-
-        // овде е (1)
-        private void btnPrevious_Click(object sender, EventArgs e)
-        {
-
-            GoToPreviousQuestion();
-            selectButton(ButtonList[currentQuestion]);
-        }
-
-        // овде се повикува избојување на тековното прашање
-        private void timer_Tick(object sender, EventArgs e)
-        {
-            selectButton(ButtonList[currentQuestion]);
-            timeElapsed++;
-            if (timeElapsed <= TIME)
-            {
-                int newTime = TIME - timeElapsed;
-                int min = newTime / 60;
-                int sec = newTime % 60;
-                lblTime.Text = string.Format("{0:00}:{1:00}", min, sec);
-            }
-            else
-            {
-                timer.Stop();
-                validateIQ();
-                CallResultForm();
-            }
-        }
-
-        // овде се одбојува
+        //функција која се користи за наоѓање на следното прашање при клик врз копчето за избор на претходно прашање
         public void GoToNextQuestion()
         {
             deselectButton(ButtonList[currentQuestion]);
@@ -415,7 +401,6 @@ namespace IQ_Test
             }
             else
             {
-                //currentQuestion = 0;
                 DrawQuestion(currentQuestion);
             }
 
@@ -423,33 +408,32 @@ namespace IQ_Test
 
         }
 
-        //овде се избојува, ама пошто е и во тајмерот немора, види со стискањето на стрелките (1)
-        private void btnNext_Click(object sender, EventArgs e)
+        //настан за Timer
+        private void timer_Tick(object sender, EventArgs e)
         {
-            GoToNextQuestion();
             selectButton(ButtonList[currentQuestion]);
-
+            timeElapsed++;
+            if (timeElapsed <= TIME)
+            {
+                int newTime = TIME - timeElapsed;
+                int min = newTime / 60;
+                int sec = newTime % 60;
+                lblTime.Text = string.Format("{0:00}:{1:00}", min, sec);
+            }
+            else
+            {
+                timer.Stop();
+                validateIQ();
+                CallResultForm();
+            }
         }
 
+        //за затварање на формата
         private void Form1_FormClosed(object sender, FormClosedEventArgs e)
         {
             this.DialogResult = System.Windows.Forms.DialogResult.OK;
         }
-
-        private void Form1_KeyDown(object sender, KeyEventArgs e)
-        {
-            selectButton(ButtonList[currentQuestion]);
-            if (e.KeyCode == Keys.Left)
-            {
-                GoToPreviousQuestion();
-            }
-
-            if (e.KeyCode == Keys.Right)
-            {
-                GoToNextQuestion();
-            }
-        }
-
+        //настан за притискање на стрлеките
         private void Form1_KeyUp(object sender, KeyEventArgs e)
         {
             selectButton(ButtonList[currentQuestion]);

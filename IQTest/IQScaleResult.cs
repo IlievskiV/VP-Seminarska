@@ -6,6 +6,7 @@ using System.Drawing;
 
 namespace IQ_Test
 {
+    //Класа во која се чуваат податоци за исцртување на скалилото
     class IQScaleResult
     {
         public int IQCoef { get; set; }
@@ -22,6 +23,7 @@ namespace IQ_Test
             Color = Color.LightYellow;
         }
 
+        //функција за испртување на скалилото
         public void Draw(Graphics g)
         {
             Point p1 = new Point(20, 200);
